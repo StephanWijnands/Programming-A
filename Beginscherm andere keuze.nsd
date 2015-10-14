@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" text="&#34;Beginscherm&#34;" comment="" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Een andere keuze&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;Beginbestemming&#34;" comment="" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;Kies twee voorletters van beginstemming&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;Verkeerde keuze ga terug naar beginscherm&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+		<alternative text="&#34;Geen vertraging/storingen&#34;" comment="" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;Geef actuele vertrektijden/vertreksporen aan&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;Geef aangepaste vertrektijden of vertreksporen aan &#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+		<instruction text="&#34;Ga terug naar beginscherm&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+	</children>
+</root>

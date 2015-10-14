@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" text="&#34;Beginscherm&#34;" comment="" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Huidige locatie &#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Kies jouw eindbestemming&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;Geen vertraging/storingen&#34;" comment="" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;Actuele vertrektijd/vertrekspoor&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;Geef aangepaste vertrektijd/vertrekspoor&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+		<instruction text="&#34;Ga terug naar beginscherm &#34;" comment="" color="ffffff" rotated="0"></instruction>
+	</children>
+</root>
