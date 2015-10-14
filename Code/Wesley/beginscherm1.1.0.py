@@ -1,4 +1,4 @@
-__author__ = 'Wesley'
+
 import tkinter as tk
 import xmltodict
 root = tk.Tk()
