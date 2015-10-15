@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;gebruiker voert 1 van de 2 knoppen in&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;scherm met 2 knoppen, huidig actuele vertrektijden en ander station actuele vertrektijden&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;if huidige_vetrektijden&#34;" comment="&#34;&#34;" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;toon huidig station met actuele vertrektijden&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;ander scherm met keuze voor gebruiker&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+				<for text="&#34;for &#60;- station in stationlijst&#34;" comment="&#34;&#34;" color="ffffff">
+					<qFor>
+						<instruction text="&#34;toon alle stations&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qFor>
+				</for>
+				<instruction text="&#34;laat actuele vertrektijden zien van gekozen station&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+	</children>
+</root>
